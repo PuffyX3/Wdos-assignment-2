@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Explore our extensive selection of fresh fruits, vegetables, dairy produce, meat & seafood, and baking & cooking ingredients. Discover premium quality products in each category, including over 6 options in fruits, vegetables, dairy, and baking ingredients, plus 4 varieties of meat and seafood. Shop now for the best in quality and variety!">
+
+    <title>Your order</title>
+    <link rel="stylesheet" href="second.css">
+    <link rel="stylesheet" href="Projectnow.css">
+    <link rel="stylesheet" href="normalize.css">
+
+   
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+    <link rel="manifest" href="favicon/site.webmanifest">
+    <link rel="mask-icon" href="favicon/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+   
+</head>
+<body>
+    <!------------------header---------------------->
+    <nav class="header">
+        <ul class="sidebar">
+            <li id="hideSidebar"><svg xmlns="http://www.w3.org/2000/svg" height="40px" viewBox="0 -960 960 960" width="40px" fill="#B7B7B7"><path d="m251.33-204.67-46.66-46.66L433.33-480 204.67-708.67l46.66-46.66L480-526.67l228.67-228.66 46.66 46.66L526.67-480l228.66 228.67-46.66 46.66L480-433.33 251.33-204.67Z"/></svg></li>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="About_us.html">About</a></li>
+            <div class="dropdown">
+                <li class="dropli">Products</li>
+                <ul class="dropdown-content">
+                    <li><a href="diary_products.html">Diary products</a></li>
+                    <li><a href="vegetable.html">Vegetable</a></li>
+                    <li><a href="cosmetics.html">SkinCare</a></li>
+                    <li><a href="other.html">Other products</a></li>
+                </ul>
+            </div>
+            <li><a href="loyalty_registration.html">Loyalty  and Registration</a></li>
+        </ul>
+        <div class ="logo">
+            <h1>Grocies Supermarket</h1>
+        </div>
+        <div class="search_bar">
+            <input type="search" placeholder="search">
+            <button>search</button>
+        </div>
+        <ul>
+            <li class="hideOnMobile"><a href="index.html">Home</a></li>
+            <li class="hideOnMobile"><a href="About_us.html">About</a></li>
+            <div class="dropdown">
+                <li class="hideli">Products</li>
+                <ul class="dropdown-content">
+                    <li class="hideOnMobile"><a href="diary_products.html">Diary products</a></li>
+                    <li class="hideOnMobile" ><a href="vegetable.html">Vegetable</a></li>
+                    <li class="hideOnMobile"><a href="cosmetics.html">SkinCare</a></li>
+                    <li  class="hideOnMobile"><a href="other.html">Other Products</a></li>
+                </ul>
+            </div>
+            
+            <li class="hideOnMobile"><a href="loyalty_registration.html">Loyalty  and Registration</a></li>
+            <li class="menu-button" id="showSidebar"><svg xmlns="http://www.w3.org/2000/svg" height="40px" viewBox="0 -960 960 960" width="40px" fill="#CCCCCC"><path d="M120-240v-66.67h720V-240H120Zm0-206.67v-66.66h720v66.66H120Zm0-206.66V-720h720v66.67H120Z"/></svg></a></li>
+        </ul>
+    </nav>
+    <!-------------order form------------------------->
+
+        <div class="order_container">
+            <div class="Order_head">
+                <h1>Product Order Form</h1>
+            </div>
+            <div class="Order_con" id ="personal info">
+                <form id="orderForm">
+                    <!-- Form inputs go here -->
+                    <label>
+                        <span class="first_name">First Name <span class="required">*</span></span>
+                        <input type="text" name="first_name" placeholder="first name" required>
+                    </label>
+                    <label>
+                        <span class="Last_name">Last Name <span class="required">*</span></span>
+                        <input type="text" name="Last_name" placeholder="Last name" required>
+                    </label>
+                    <label>
+                        <span>Address <span class="required">*</span></span>
+                        <input type="text" name="houseadd" placeholder="House Address" required>
+                    </label>
+                    <label>
+                        <span>Town / City <span class="required">*</span></span>
+                        <input type="text" name="city" placeholder="your town" required> 
+                    </label>
+                    <label>
+                        <span>Postcode / ZIP <span class="required">*</span></span>
+                        <input type="text" name="postal_zip" placeholder="postal code" required> 
+                    </label>
+                    <label>
+                        <span>Phone <span class="required">*</span></span>
+                        <input type="tel" name="phone_no" placeholder="contact info" required> 
+                    </label>
+                    <label>
+                        <span>Email Address <span class="required">*</span></span>
+                        <input type="email" name="email" placeholder="email" required> 
+                    </label>
+                    <button type="button" id="place_order">Pay now</button>
+                </form>
+                
+                <div class="Your_order">
+                <table class="how" id ="order">
+                  
+                </table><br>
+                <div id="totalorder">Your total is:</div>
+                <button id="applyfav">Apply Favourite</button>
+                <button id="addtofav">Add to Favourite</button>
+                <div>
+                    <input type="radio" name="direc_bank_trans" value="direc_bank_trans" checked> Direct Bank Transfer
+                </div>
+                <p>
+                    Make your payment directly into our bank account. Please use your Order ID as the payment reference.
+                </p>
+                <div>
+                    <input type="radio" name="direc_bank_trans" value="cash_dil"> Cash on Delivery
+                </div>
+                <div>
+                    <input type="radio" name="direc_bank_trans" value="cash_dil"> Credit Card <span>
+                    <img src="https://www.logolynx.com/images/logolynx/c3/c36093ca9fb6c250f74d319550acac4d.jpeg" alt="" width="50">
+                    </span>
+                </div>
+                
+                
+                </div>
+            </div>
+            </div>
+    <!------------------footer---------------------->
+        <footer>
+            <div class="footer-row">
+                <div class="footer-col">
+                    <div class="foot_logo">
+                        <div class="logo">
+                            <h1>Grocies Supermarket</h1>
+                        </div>
+                    </div>
+                </div>
+                </div>
+                <div class="footer-col">
+                    <h2>Quick Links </h2>
+                    <ul class="links">
+                        <li><a href="index.html">Home </a></li>
+                        <li><a href="About_us.html">About us</a></li>
+                        <li><a href="">Products &services</a></li>
+                    </ul>
+                </div>
+                </div>
+                <div class="footer-col">
+                        <h2>categories</h2>
+                        <ul class="links">
+                            <li><a href="vegetable.html">Vegetables</a></li>
+                            <li><a href="cosmetics.html">Cosmetics</a></li>
+                            <li><a href="diary_products.html">Diary Products</a></li>
+                        </ul>
+                    </div>
+                    </div>
+                    <div class="footer-col">
+                        <h2>Useful Links</h2>
+                        <ul class="links">
+                            <li><a href="#">Privacy policy</a></li>
+                            <li><a href="#">Terms And Conditions</a></li>
+                            <li><a href="#">Contact us </a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-col">
+                        <h2>Newsletter</h2>
+                        <p>
+                            Subscribe to our newsletter for a weekly dose
+                            of news, updates, helpful tips, and
+                            exclusive offers.
+                        </p>
+                        <form>
+                            <input type="text" placeholder="Your email" required>
+                            <button type="submit">SUBSCRIBE</button>
+                        </form>
+                    </div>
+                </footer>
+
+
+    <script src ="sidebar.js"></script>
+    <script src="order.js"></script>
+</body>
+</html>

@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>loyalty_registration</title>
+    <link rel="stylesheet" href="normalize.css">
+	<link rel="stylesheet" href="Projectnow.css">
+
+   
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+    <link rel="manifest" href="favicon/site.webmanifest">
+    <link rel="mask-icon" href="favicon/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+</head>
+<body>
+    <nav class="header">
+        <ul class="sidebar">
+            <li id="hideSidebar"><svg xmlns="http://www.w3.org/2000/svg" height="40px" viewBox="0 -960 960 960" width="40px" fill="#B7B7B7"><path d="m251.33-204.67-46.66-46.66L433.33-480 204.67-708.67l46.66-46.66L480-526.67l228.67-228.66 46.66 46.66L526.67-480l228.66 228.67-46.66 46.66L480-433.33 251.33-204.67Z"/></svg></li>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="About_us.html">About</a></li>
+            <div class="dropdown">
+                <li class="dropli">Products</li>
+                <ul class="dropdown-content">
+                    <li><a href="diary_products.html">Diary products</a></li>
+                    <li><a href="vegetable.html">Vegetable</a></li>
+                    <li><a href="cosmetics.html">SkinCare</a></li>
+                    <li><a href="other.html">Other products</a></li>
+                </ul>
+            </div>
+            <li><a href="loyalty_registration.html">Loyalty  and Registration</a></li>
+        </ul>
+        <div class ="logo">
+            <h1>Grocies Supermarket</h1>
+        </div>
+        <div class="search_bar">
+            <input type="search" placeholder="search">
+            <button>search</button>
+        </div>
+        <ul>
+            <li class="hideOnMobile"><a href="index.html">Home</a></li>
+            <li class="hideOnMobile"><a href="About_us.html">About</a></li>
+            <div class="dropdown">
+                <li class="hideli">Products</li>
+                <ul class="dropdown-content">
+                    <li class="hideOnMobile"><a href="diary_products.html">Diary products</a></li>
+                    <li class="hideOnMobile" ><a href="vegetable.html">Vegetable</a></li>
+                    <li class="hideOnMobile"><a href="cosmetics.html">SkinCare</a></li>
+                    <li  class="hideOnMobile"><a href="other.html">Other Products</a></li>
+                </ul>
+            </div>
+            
+            <li class="hideOnMobile"><a href="loyalty_registration.html">Loyalty  and Registration</a></li>
+            <li class="menu-button" id="showSidebar"><svg xmlns="http://www.w3.org/2000/svg" height="40px" viewBox="0 -960 960 960" width="40px" fill="#CCCCCC"><path d="M120-240v-66.67h720V-240H120Zm0-206.67v-66.66h720v66.66H120Zm0-206.66V-720h720v66.67H120Z"/></svg></a></li>
+        </ul>
+    </nav>
+    <div class="benifits">
+        <span class="bentitle">
+            <h1>Customer Loyalty Programme</h1>
+        </span>
+        <span>
+            <p>
+                Our customer loyalty programme brings you access to a range of special offers and discounts. Collect points through every purchase at our supermarket chain, and progress between loyalty tiers. All that’s required is for you to register with us.
+            </p>
+        </span>
+        <h1 class="text-center">Pick the best plan for you</h1>
+
+<div class="pricing-box-container">
+	<div class="pricing-box text-center">
+		<h5>silver</h5>
+		<p class="price"><sup>Rs</sup>10,000<sub>/mo</sub></p>
+		<ul class="features-list">
+			<li><strong>5%</strong> Discount on purcheses over 5000</li>
+			<li>Free Samples</li>
+			<li><strong>Exclusive</strong> offers </li>
+            <li><strong>10</strong> points on purchases worth over 2000 Rs </li>
+            <li>&nbsp</li>
+		</ul>
+		<button class="btn-primary">Sign up </button>
+	</div>
+
+	<div class="pricing-box text-center">
+		<h5>Gold</h5>
+		<p class="price"><sup>Rs</sup>15,000<sub>/mo</sub></p>
+		<ul class="features-list">
+			<li><strong>10%</strong> discounts on purchases over 5000</li>
+			<li>Free Samples</li>
+			<li><strong>Exclusive</strong> offers</li>
+			<li><strong>Recerved</strong> Parking Space</li>
+            <li><strong>20</strong> points on purchases worth over 2000 Rs </li>
+		</ul>
+		<button class="btn-primary">Get Started</button>
+	</div>
+
+	<div class="pricing-box text-center">
+		<h5>Platinum</h5>
+		<p class="price"><sup>Rs</sup>20,000<sub>/mo</sub></p>
+		<ul class="features-list">
+			<li><strong>20%</strong> discounts on purchases over 5000</li>
+			<li>Free Samples</li>
+			<li><strong>Exclusive</strong> offers</li>
+			<li><strong>Recerved</strong> Parking Space</li>
+            <li><strong>40</strong> points on purchases worth over 2000 Rs </li>
+		</ul>
+		<button class="btn-primary">Get Started</button>
+	</div>
+</div>
+<div class="formcon">
+    <div class="loyalty_reg">
+        <div class="title">
+            Loyalty Registration
+        </div>
+        <div class="content">
+            <form action="">
+                <div class="costumer-details">
+                    <div class="input-box">
+                        <span class="details">First Name</span>
+                        <input type="text" placeholder="Enter your name" required>
+                    </div>
+                    <div class="input-box">
+                        <span class="details">Last Name</span>
+                        <input type="text" placeholder="Enter your name" required>
+                    </div>
+                    <div class="input-box">
+                        <span class="details">Date of birth</span>
+                        <input type="date" placeholder="Enter your Date of Birth" required>
+                    </div>
+    
+                    <div class="input-box">
+                        <span class="details">Phone Number</span>
+                        <input type="number" placeholder="Enter your Phone number" required>
+                    </div>
+                    <div class="input-box">
+                        <span class="details">Address</span>
+                        <input type="text" placeholder="Enter your Address" required>
+                    </div>
+                    <div class="input-box">
+                        <span class="details">Poastal Code</span>
+                        <input type="number" placeholder="Enter your Postal Code" required>
+                    </div>
+    
+                    <div class="input-box">
+                        <span class="details">Email</span>
+                        <input type="text" placeholder="Enter your Email" required>
+                    </div>
+                    
+                    <div class="input-box">
+                        <span class="details">Password</span>
+                        <input type="text" placeholder="Enter your password" required>
+                    </div>
+    
+                    <hr>
+    
+                    </div>
+                    <div class="gender-details">
+                        <input type="radio" name="gender" id="dot-1">
+                        <input type="radio" name="gender" id="dot-2">
+                        <input type="radio" name="gender" id="dot-3">
+                        
+                        <span class="gender-title">Gender</span>
+                        <div class="category">
+                        <label for="dot-1">
+                        <span class="dot one"></span>
+                        <span class="gender">Male</span>
+                        </label>
+                        <label for="dot-2">
+                        <span class="dot two"> </span>
+                        <span class="gender">Female</span>
+                        </label>
+                        <label for="dot-3">
+                        <span class="dot three"></span>
+                        <span class="gender">Prefer not to say</span>
+                        </label>
+                        </div>
+                    </div>
+                    
+    
+                    
+    
+                    <div class="button">
+                        <input type="submit" value="Register">
+                    </div>
+            </form>
+    
+        </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+</div>
+    <footer>
+        <div class="footer-row">
+            <div class="footer-col">
+                <div class="foot_logo">
+                    <div class="logo">
+                        <h1>Grocies Supermarket</h1>
+                    </div>
+                </div>
+            </div>
+            </div>
+            <div class="footer-col">
+                <h2>Quick Links </h2>
+                <ul class="links">
+                    <li><a href="index.html">Home </a></li>
+                    <li><a href="About_us.html">About us</a></li>
+                    <li><a href="#">Products &services</a></li>
+                </ul>
+            </div>
+            </div>
+            <div class="footer-col">
+                    <h2>categories</h2>
+                    <ul class="links">
+                        <li><a href="vegetable.html">Vegetables</a></li>
+                        <li><a href="cosmetics.html">Cosmetics</a></li>
+                        <li><a href="diary_products.html">Diary Products</a></li>
+                    </ul>
+                </div>
+                </div>
+                <div class="footer-col">
+                    <h2>Useful Links</h2>
+                    <ul class="links">
+                        <li><a href="#">Privacy policy</a></li>
+                        <li><a href="#">Terms And Conditions</a></li>
+                        <li><a href="#">Contact us </a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h2>Newsletter</h2>
+                    <p>
+                        Subscribe to our newsletter for a weekly dose
+                        of news, updates, helpful tips, and
+                        exclusive offers.
+                    </p>
+                    <form>
+                        <input type="text" placeholder="Your email" required>
+                        <button type="submit">SUBSCRIBE</button>
+                    </form>
+                </div>
+            </footer>
+            <script>
+                function showSidebar(){
+                    const sidebar = document.querySelector('.sidebar')
+                    sidebar.style.display = 'flex'
+                }
+                function hideSidebar(){
+                    const sidebar = document.querySelector('.sidebar')
+                    sidebar.style.display = 'none'
+                    }
+              </script>
+    
+</body>
+</html>

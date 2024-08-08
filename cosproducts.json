@@ -1,0 +1,456 @@
+[
+    {
+        "id": "001",
+        "name": "Glowy Lip Balm Berry",
+        "price": 790.00,
+        "image": "https://www.britishcosmetics.lk/wp-content/uploads/2023/10/Berry-2-260x230.png"
+    },
+    {
+        "id": "002",
+        "name": "Glowy Lip Balm Peach",
+        "price": 790.00,
+        "image": "https://www.britishcosmetics.lk/wp-content/uploads/2023/10/Peach-2-260x230.png"
+    },
+    {
+        "id": "003",
+        "name": "Glowy Lip Balm Chocolate",
+        "price": 790.00,
+        "image": "https://www.britishcosmetics.lk/wp-content/uploads/2023/10/Chocolate-2-260x230.png"
+    },
+    {
+        "id": "004",
+        "name": "Glowy Lip Balm Vanilla",
+        "price": 790.00,
+        "image": "https://www.britishcosmetics.lk/wp-content/uploads/2023/10/Vanilla-2-260x230.png"
+    },
+    {
+        "id": "005",
+        "name": "Regenerate Gold Facial",
+        "price": 3190.00,
+        "image": "https://www.britishcosmetics.lk/wp-content/uploads/2023/09/P45-260x230.png"
+    },
+    {
+        "id": "006",
+        "name": "Radiance Facial Mask",
+        "price": 1990.00,
+        "image": "https://www.britishcosmetics.lk/wp-content/uploads/2023/09/RADIANCE-FACIAL-MASK-FOR-ALL-SKIN-TYPES-260x230.png"
+    },
+    {
+        "id": "007",
+        "name": "Turmeric Cleansing Mask",
+        "price": 2890.00,
+        "image": "https://www.britishcosmetics.lk/wp-content/uploads/2023/09/P160-260x230.png"
+    },
+    {
+        "id": "008",
+        "name": "Charcoal Cleansing Mask",
+        "price": 2890.00,
+        "image": "https://www.britishcosmetics.lk/wp-content/uploads/2023/09/P161-260x230.png"
+    },
+    {
+        "id": "009",
+        "name": "Nail Polish Morgan",
+        "price": 850.00,
+        "image": "https://www.britishcosmetics.lk/wp-content/uploads/2023/09/POPCULTURE-COLLECTION-%E2%80%93-2-260x230.png"
+    },
+    {
+        "id": "010",
+        "name": "Polish Remover",
+        "price": 540.00,
+        "image": "https://www.britishcosmetics.lk/wp-content/uploads/2023/09/CONDITIONING-NAIL-POLISH-REMOVER-260x230.png"
+    },
+    {
+        "id": "011",
+        "name": "Gel Collection",
+        "price": 7890.00,
+        "image": "https://www.britishcosmetics.lk/wp-content/uploads/2023/11/1110400-260x230.jpg"
+    },
+    {
+        "id": "012",
+        "name": "Nail Polish",
+        "price": 7550.00,
+        "image": "https://www.britishcosmetics.lk/wp-content/uploads/2023/09/50092-260x230.png"
+    },
+    {
+        "id": "013",
+        "name": "Kothmale Cheese Wedges",
+        "price": 448.00,
+        "image": "https://cargillsonline.com/VendorItems/MenuItems/DY30000_1.jpg"
+    },
+    {
+        "id": "014",
+        "name": "Kothmale Butter Salted",
+        "price": 880.00,
+        "image": "https://cargillsonline.com/VendorItems/MenuItems/DYE0008_1.jpg"
+    },
+    {
+        "id": "015",
+        "name": "Diamond Milk Powder",
+        "price": 950.00,
+        "image": "https://cargillsonline.com/VendorItems/MenuItems/BVE0537_1.jpg"
+    },
+    {
+        "id": "016",
+        "name": "Magic Fruit & Nut Ice Cream",
+        "price": 656.00,
+        "image": "https://cargillsonline.com/VendorItems/MenuItems/FF74016_1.jpg"
+    },
+    {
+        "id": "017",
+        "name": "Magic Choco Ice Cream",
+        "price": 456.00,
+        "image": "https://cargillsonline.com/VendorItems/MenuItems/FF74006_1.jpg"
+    },
+    {
+        "id": "018",
+        "name": "Kothmale Swiss Cheese",
+        "price": 448.00,
+        "image": "https://cargillsonline.com/VendorItems/MenuItems/DYD0315_1.jpg"
+    },
+    {
+        "id": "019",
+        "name": "Kothmale Milk Vanilla",
+        "price": 464.00,
+        "image": "https://cargillsonline.com/VendorItems/MenuItems/BV13707_1.jpg"
+    },
+    {
+        "id": "020",
+        "name": "Honeycomb Ice Cream",
+        "price": 600.00,
+        "image": "https://cargillsonline.com/VendorItems/MenuItems/FFE0498_1.jpg"
+    },
+    {
+        "id": "021",
+        "name": "Ambewela Fresh Milk",
+        "price": 530.00,
+        "image": "https://cargillsonline.com/VendorItems/MenuItems/BV15201_1.jpg"
+    },
+    {
+        "id": "022",
+        "name": "Kothmale Fresh Milk",
+        "price": 550.00,
+        "image": "https://cargillsonline.com/VendorItems/MenuItems/BV13703_1.jpg"
+    },
+    {
+        "id": "023",
+        "name": "Kothmale Set Yogurt",
+        "price": 180.00,
+        "image": "https://cargillsonline.com/VendorItems/MenuItems/DY48801_1.jpg"
+    },
+    {
+        "id": "024",
+        "name": "Kothmale Curd",
+        "price": 300.00,
+        "image": "https://cargillsonline.com/VendorItems/MenuItems/DY40953_1.jpg"
+    },
+    {
+        "id": "025",
+        "name": "Pre Packed Garlic",
+        "price": 980.00,
+        "image": "https://essstr.blob.core.windows.net/essimg/350x/Small/Pic914015.jpg"
+    },
+    {
+        "id": "026",
+        "name": "Pre Packed Potatoes",
+        "price": 370.00,
+        "image": "https://essstr.blob.core.windows.net/essimg/350x/Small/Pic915014.jpg"
+    },
+    {
+        "id": "027",
+        "name": "Cucumber",
+        "price": 280.00,
+        "image": "https://essstr.blob.core.windows.net/essimg/350x/Small/Pic914009.jpg"
+    },
+    {
+        "id": "028",
+        "name": "Chopped Mukunuwenna",
+        "price": 980.00,
+        "image": "https://essstr.blob.core.windows.net/essimg/350x/Small/Pic912020.jpg"
+    },
+    {
+        "id": "029",
+        "name": "Plantain Flower",
+        "price": 90.00,
+        "image": "https://essstr.blob.core.windows.net/essimg/350x/Small/Pic914038.jpg"
+    },
+    {
+        "id": "030",
+        "name": "Tomatoes",
+        "price": 80.00,
+        "image": "https://essstr.blob.core.windows.net/essimg/350x/Small/Pic915016.jpg"
+    },
+    {
+        "id": "031",
+        "name": "Rhubarb",
+        "price": 700.00,
+        "image": "https://essstr.blob.core.windows.net/essimg/350x/Small/Pic913064.jpg"
+    },
+    {
+        "id": "032",
+        "name": "Manioc",
+        "price": 290.00,
+        "image": "https://essstr.blob.core.windows.net/essimg/350x/Small/Pic916029.jpg"
+    },
+    {
+        "id": "033",
+        "name": "Salad Cucumber",
+        "price": 540.00,
+        "image": "https://essstr.blob.core.windows.net/essimg/350x/Small/Pic913066.jpg"
+    },
+    {
+        "id": "034",
+        "name": "Pre Packed Onion",
+        "price": 980.00,
+        "image": "https://essstr.blob.core.windows.net/essimg/350x/Small/Pic914043.jpg"
+    },
+    {
+        "id": "035",
+        "name": "Batana",
+        "price": 500.00,
+        "image": "https://essstr.blob.core.windows.net/essimg/350x/Small/Pic914004.jpg"
+    },
+    {
+        "id": "036",
+        "name": "Yellow Zucchini",
+        "price": 770.00,
+        "image": "https://essstr.blob.core.windows.net/essimg/350x/Small/Pic913070.jpg"
+    },
+        {
+            "id": "037",
+            "name": "Banana seeni",
+            "price": 250.00
+        },
+        {
+            "id": "038",
+            "name": "Woodapple",
+            "price": 130.00
+        },
+        {
+            "id": "039",
+            "name": "Pine apple",
+            "price": 690.00
+        },
+        {
+            "id": "040",
+            "name": "Pani dodam",
+            "price": 900.00
+        },
+        {
+            "id": "041",
+            "name": "Mango",
+            "price": 850.00
+        },
+        {
+            "id": "042",
+            "name": "Gaslabu",
+            "price": 360.00
+        },
+        {
+            "id": "043",
+            "name": "Avocado",
+            "price": 350.00
+        },
+        {
+            "id": "044",
+            "name": "Watermelon",
+            "price": 320.00
+        },
+        {
+            "id": "045",
+            "name": "Bitter Gourd",
+            "price": 100.00
+        },
+        {
+            "id": "046",
+            "name": "Brinjal",
+            "price": 130.00
+        },
+        {
+            "id": "047",
+            "name": "Broccoli",
+            "price": 550.00
+        },
+        {
+            "id": "048",
+            "name": "Carrot",
+            "price": 140.00
+        },
+        {
+            "id": "049",
+            "name": "Cauliflower",
+            "price": 325.00
+        },
+        {
+            "id": "050",
+            "name": "Greenbeans",
+            "price": 145.00
+        },
+        {
+            "id": "051",
+            "name": "Murunga",
+            "price": 165.00
+        },
+        {
+            "id": "052",
+            "name": "Winged Beans",
+            "price": 135.00
+        },
+        {
+            "id": "053",
+            "name": "Chicken Breast",
+            "price": 100.00
+        },
+        {
+            "id": "054",
+            "name": "Chicken liver",
+            "price": 1350.00
+        },
+        {
+            "id": "055",
+            "name": "Chicken thigh",
+            "price": 1750.00
+        },
+        {
+            "id": "056",
+            "name": "Whole chicken",
+            "price": 3500.00
+        },
+        {
+            "id": "057",
+            "name": "Lobster",
+            "price": 4375.00
+        },
+        {
+            "id": "058",
+            "name": "Shrimp",
+            "price": 1875.00
+        },
+        {
+            "id": "059",
+            "name": "Gar fish",
+            "price": 3500.00
+        },
+        {
+            "id": "060",
+            "name": "Big crab",
+            "price": 4375.00
+        },
+        {
+            "id": "061",
+            "name": "Astra 1kg",
+            "image": "images/dairy/astra.webp",
+            "price": 1600.00,
+            "quantity": 0
+        },
+              {
+                "id": "062",
+                "name": "Raththi 1kg",
+                "image": "images/dairy/rath.webp",
+                "price": 2620.00,
+                "quantity": 0
+              },
+              {
+                "id": "063",
+                "name": "Cheese",
+                "image": "images/dairy/cheese.webp",
+                "price": 490.00,
+                "quantity": 0
+              },
+              {
+                "id": "064",
+                "name": "Gouda cheese",
+                "image": "images/dairy/gouda.webp",
+                "price": 2880.00,
+                "quantity": 0
+              },
+              {
+                "id": "065",
+                "name": "Set kiri",
+                "image": "images/dairy/kiri.webp",
+                "price": 380.00,
+                "quantity": 0
+              },
+              {
+                "id": "066",
+                "name": "Vanilla milk",
+                "image": "images/dairy/vaniila.webp",
+                "price": 220.00,
+                "quantity": 0
+              },
+              {
+                "id": "067",
+                "name": "Choco milk",
+                "image": "images/dairy/choco.webp",
+                "price": 220.00,
+                "quantity": 0
+              },
+              {
+                "id": "068",
+                "name": "Cream cheese",
+                "image": "images/dairy/cream cheese.webp",
+                "price": 550.00,
+                "quantity": 0
+              },
+              {
+                "id": "069",
+                "name": "Icing sugar",
+                "image": "images/dairy/4796002070047-1-300x300.webp",
+                "price": 465.00,
+                "quantity": 0
+              },
+              {
+                "id": "070",
+                "name": "Gelatin Powder",
+                "image": "images/dairy/4792240001775-300x300.webp",
+                "price": 550.00,
+                "quantity": 0
+              },
+              {
+                "id": "071",
+                "name": "Vanilla Extract",
+                "image": "images/dairy/4796027660216-300x300.webp",
+                "price": 560.00,
+                "quantity": 0
+              },
+              {
+                "id": "072",
+                "name": "Choco Pudding mix",
+                "image": "images/dairy/MD-Chocolate-Pudding-Mix-150g_178x178.webp",
+                "price": 960.00,
+                "quantity": 0
+              },
+              {
+                "id": "073",
+                "name": "Vanilla pudding mix",
+                "image": "images/dairy/MD-Vanilla-Pudding-Mix-150g_178x178.webp",
+                "price": 960.00,
+                "quantity": 0
+              },
+              {
+                "id": "074",
+                "name": "Vanilla essence",
+                "image": "images/dairy/Delmege-Vanilla-Essence-28ml_178x178.webp",
+                "price": 220.00,
+                "quantity": 0
+              },
+              {
+                "id": "075",
+                "name": "Vanilla-Essence",
+                "image": "images/dairy/Delmege-Vanilla-Essence-28ml_178x178.webp",
+                "price": 220.00,
+                "quantity": 0
+              },
+              {
+                "id": "076",
+                "name": "Fruit fillings",
+                "image": "images/dairy/4792240001607-300x300.webp",
+                "price": 2970.00,
+                "quantity": 0
+              
+          }]
+
+
+
+
+    
+

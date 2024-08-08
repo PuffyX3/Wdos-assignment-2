@@ -1,0 +1,135 @@
+.cart-container {
+    border:1px solid #E0E4CC;
+    border-radius:5px;
+    margin-top:1em;
+    margin-bottom: 1em;
+    padding:1em;
+    display: flex;
+    flex-direction: column;
+    width: 1000px;
+    padding: 0;
+    
+  }
+  .cart-container  h2{
+    color: black;
+    font-size: 24px;
+  }
+
+.center{
+    display: flex;
+    justify-content: center;
+   
+}
+button, input[type="submit"] { 
+    color:#fff; 
+    background:black; 
+    padding:0.6em 1em;
+    font-size:1em; 
+    line-height:1; 
+    border-radius: 1.2em;
+    transition: color 0.2s ease-in-out, background 0.2s ease-in-out, border-color 0.2s ease-in-out;
+}
+button:hover, button:focus, button:active, input[type="submit"]:hover, input[type="submit"]:focus, input[type="submit"]:active {
+    background: #A7DBD8;
+    border-color:#69D2E7;
+    color:#000;
+    cursor: pointer;
+}
+.carttable {
+  margin-bottom:1em;
+  border-collapse:collapse;
+}
+.carttable td, .carttable th {
+  text-align:center;
+  padding:0.25em 1em;
+  border-bottom:1px solid #E0E4CC;
+  color: black;
+  width: 100px;
+  height: 70px;
+}
+
+#carttotals {
+  margin-right:0;
+  margin-left:auto;
+}
+.cart-buttons {
+  width:auto;
+  margin-right:0;
+  margin-left:auto;
+  display:flex;
+  justify-content:flex-end;
+  padding:1em 0;
+}
+#emptycart {
+  margin-right:1em;
+}
+table td:nth-last-child(1) {
+  text-align:right;
+}
+.message {
+  border-width: 1px 0px;
+  border-style:solid;
+  border-color:#A7DBD8;
+  color:#679996;
+  padding:0.5em 0;
+  margin:1em 0;
+}
+
+
+
+.Cosinfo input[type="number"], 
+.Cosinfo select {
+    width: 60px;
+    height: 30px;
+    padding: 5px;
+    margin-right: 10px;
+    font-size: 16px;
+}
+#quantity{
+    display: inline-block;
+}
+.qunatity{
+  display: block;
+    width: 60px;
+    height: 30px;
+    padding: 5px;
+    margin-right: 10px;
+    font-size: 16px;
+}
+.quantxt{
+    display: inline-block;
+}
+
+#custom-qunatity{
+    border: none;
+    overflow: hidden;
+}
+
+button a {
+  text-decoration: none;
+  color: white;
+}
+
+.remove{
+  background-color: white;
+  color: black ;
+  border-radius: 0;
+  border: none;
+}
+.remove:hover{
+  background-color: white;
+  color: black ;
+  border-radius: 0;
+  border: none;
+}
+form #place_order{
+  width: 100%;
+  margin-top: 10px;
+  padding: 10px;
+  border: none;
+  border-radius: 30px;
+  background: #52ad9c;
+  color: #fff;
+  font-size: 15px;
+  font-weight: bold;
+}
