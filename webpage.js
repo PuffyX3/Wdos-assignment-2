@@ -14,9 +14,14 @@ document.querySelectorAll('.add-to-cart').forEach(button => {
         const productId = event.target.dataset.id;
         const product = findProductById(productId);
         const quantityInput = document.querySelector(`input[data-id="${productId}"]`);
-        const quantity = parseInt(quantityInput.value) 
+        let quantity = parseFloat(quantityInput.value);
 
-        if (product && quantity > 0) {
+        if (product) {
+            // Handle invalid input
+            if (isNaN(quantity) || quantity <= 0) {
+                quantity = 1; // Default to 1 if input is invalid or zero
+            }
+
             // Add the exact quantity of items to the cart
             for (let i = 0; i < quantity; i++) {
                 cart.push(product);
@@ -25,8 +30,8 @@ document.querySelectorAll('.add-to-cart').forEach(button => {
 
             // Save the cart array to local storage
             localStorage.setItem('cart', JSON.stringify(cart));
-        } else if (quantity <= 0) {
-            console.log("Cannot add item with zero or negative quantity");
+        } else {
+            console.log("Product not found");
         }
     });
 });
@@ -66,7 +71,7 @@ function updateCart() {
 
         // Append "kg" if the item's ID is between "025" and "060"
         if (item.id >= "025" && item.id <= "060") {
-            quantityDisplay += " kg";
+            quantityDisplay = quantityDisplay.toFixed(2) + " kg";
         }
 
         cartTable.innerHTML += `
