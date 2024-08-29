@@ -4,7 +4,7 @@ document.addEventListener("DOMContentLoaded", function () {
     updateOrderTable(consolidatedCart);
     updateTotal(consolidatedCart);
 
-    // Attach the click event to the "Add to Favorite" button
+    //click event to the "Add to Favorite" button
     const addToFavButton = document.getElementById("addtofav");
     if (addToFavButton) {
         addToFavButton.addEventListener("click", () => addToFavorites(consolidatedCart));
@@ -21,17 +21,17 @@ document.addEventListener("DOMContentLoaded", function () {
     }
 });
 
-// Function to consolidate cart items by ID
+// Function to gather cart items by ID
 function consolidateCart(cart) {
     const itemMap = {};
 
     cart.forEach(item => {
         if (itemMap[item.id]) {
-            // If the item already exists in the map, update its quantity and total price
+            // If the item already exists in the itemmap, update its quantity and total price
             itemMap[item.id].quantity += 1;
             itemMap[item.id].totalPrice += item.price;
         } else {
-            // Otherwise, create a new entry in the map
+            // Otherwise, create a new item in the map
             itemMap[item.id] = {
                 ...item,
                 quantity: 1,
@@ -40,7 +40,7 @@ function consolidateCart(cart) {
         }
     });
 
-    // Convert the map back to an array
+    // Convert  the above thingy back into an array
     return Object.values(itemMap);
 }
 
@@ -52,7 +52,7 @@ function updateOrderTable(cart) {
     }
 
     const tbody = orderTable.querySelector("tbody") || document.createElement("tbody");
-    tbody.innerHTML = ""; // Clear previous content
+    tbody.innerHTML = ""; // Clear previous cart
 
     tbody.innerHTML += `<tr>
         <th>Product</th>
@@ -108,7 +108,7 @@ function applyFavourite(currentCart) {
             tableItem.quantity += favItem.quantity;
             tableItem.totalPrice += favItem.totalPrice;
         } else {
-            // Otherwise, add the favorite item to the cart
+            // else add the favorite item to the cart
             currentCart.push({ ...favItem });
         }
     });

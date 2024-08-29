@@ -61,7 +61,7 @@ function updateCart() {
 
         let quantityDisplay = item.quantity;
         
-        // Append "kg" if the item's ID is between "025" and "060"
+        // Append "kg" if the item's ID is between "025" and "060" dont touchy it works
         if (item.id >= "025" && item.id <= "060") {
             quantityDisplay += " kg";
         }
@@ -78,7 +78,7 @@ function updateCart() {
     itemsQuantity.textContent = itemsCount;
     total.textContent = totalAmount.toFixed(2);
 
-    // Add event listeners to "Remove item" buttons
+    // Add event listeners to "Remove item" buttons to decrease quntity byv 1
     document.querySelectorAll('.remove').forEach(button => {
         button.addEventListener('click', (event) => {
             const productId = event.target.dataset.id;
@@ -89,7 +89,7 @@ function updateCart() {
 
 // Function to remove an item from the cart
 function removeItemFromCart(productId) {
-    // Find the index of the first occurrence of the product in the cart
+    // Find the index of the first item of the product in the cart
     const productIndex = cart.findIndex(item => item.id === productId);
     if (productIndex !== -1) {
         // Remove the  occurrence of the product from the cart
@@ -101,19 +101,15 @@ function removeItemFromCart(productId) {
     }
 }
 
-// Function to empty the cart
+// Function to empty the cart somehow works :>
 function emptycart() {
     cart = [];
     updateCart();
     localStorage.setItem('cart', JSON.stringify(cart));
 }
 
-function buy() {
-    // Implement buy functionality here
-}
-
-// Event listener for empty cart button
+// Event listener for empty cart button dont tounch!!!!!!
 document.getElementById('emptycart').addEventListener('click', emptycart);
 
-// Fetch and display products when the page loads
+// Fetch and display products when the page loads also no touchy!!!!!!!!!!!!
 fetchProducts();
