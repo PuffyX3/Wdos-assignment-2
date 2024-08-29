@@ -14,7 +14,7 @@ document.querySelectorAll('.add-to-cart').forEach(button => {
         const productId = event.target.dataset.id;
         const product = findProductById(productId);
         const quantityInput = document.querySelector(`input[data-id="${productId}"]`);
-        const quantity = parseInt(quantityInput.value) || 1; // Default to 1 if no valid input
+        const quantity = parseInt(quantityInput.value) 
 
         if (product && quantity > 0) {
             // Add the exact quantity of items to the cart
