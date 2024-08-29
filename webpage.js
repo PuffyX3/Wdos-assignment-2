@@ -14,14 +14,15 @@ document.querySelectorAll('.add-to-cart').forEach(button => {
         const productId = event.target.dataset.id;
         const product = findProductById(productId);
         const quantityInput = document.querySelector(`input[data-id="${productId}"]`);
-        const quantity = parseInt(quantityInput.value) || 1;
+        const quantity = parseInt(quantityInput.value) || 1; // Default to 1 if no valid input
 
         if (product && quantity > 0) {
+            // Add the exact quantity of items to the cart
             for (let i = 0; i < quantity; i++) {
                 cart.push(product);
             }
             updateCart();
-            
+
             // Save the cart array to local storage
             localStorage.setItem('cart', JSON.stringify(cart));
         } else if (quantity <= 0) {
@@ -62,7 +63,7 @@ function updateCart() {
         itemsCount += item.quantity;
 
         let quantityDisplay = item.quantity;
-        
+
         // Append "kg" if the item's ID is between "025" and "060"
         if (item.id >= "025" && item.id <= "060") {
             quantityDisplay += " kg";
