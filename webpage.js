@@ -16,15 +16,17 @@ document.querySelectorAll('.add-to-cart').forEach(button => {
         const quantityInput = document.querySelector(`input[data-id="${productId}"]`);
         const quantity = parseInt(quantityInput.value) || 1;
 
-        if (product) {
+        if (product && quantity > 0) {
             for (let i = 0; i < quantity; i++) {
                 cart.push(product);
             }
             updateCart();
+            
+            // Save the cart array to local storage
+            localStorage.setItem('cart', JSON.stringify(cart));
+        } else if (quantity <= 0) {
+            console.log("Cannot add item with zero or negative quantity");
         }
-
-        // Save the cart array to local storage
-        localStorage.setItem('cart', JSON.stringify(cart));
     });
 });
 
@@ -61,7 +63,7 @@ function updateCart() {
 
         let quantityDisplay = item.quantity;
         
-        // Append "kg" if the item's ID is between "025" and "060" dont touchy it works
+        // Append "kg" if the item's ID is between "025" and "060"
         if (item.id >= "025" && item.id <= "060") {
             quantityDisplay += " kg";
         }
@@ -78,7 +80,7 @@ function updateCart() {
     itemsQuantity.textContent = itemsCount;
     total.textContent = totalAmount.toFixed(2);
 
-    // Add event listeners to "Remove item" buttons to decrease quntity byv 1
+    // Add event listeners to "Remove item" buttons
     document.querySelectorAll('.remove').forEach(button => {
         button.addEventListener('click', (event) => {
             const productId = event.target.dataset.id;
@@ -92,7 +94,7 @@ function removeItemFromCart(productId) {
     // Find the index of the first item of the product in the cart
     const productIndex = cart.findIndex(item => item.id === productId);
     if (productIndex !== -1) {
-        // Remove the  occurrence of the product from the cart
+        // Remove the occurrence of the product from the cart
         cart.splice(productIndex, 1);
         updateCart();
 
@@ -101,15 +103,15 @@ function removeItemFromCart(productId) {
     }
 }
 
-// Function to empty the cart somehow works :>
-function emptycart() {
+// Function to empty the cart
+function emptyCart() {
     cart = [];
     updateCart();
     localStorage.setItem('cart', JSON.stringify(cart));
 }
 
-// Event listener for empty cart button dont tounch!!!!!!
-document.getElementById('emptycart').addEventListener('click', emptycart);
+// Event listener for empty cart button
+document.getElementById('emptycart').addEventListener('click', emptyCart);
 
-// Fetch and display products when the page loads also no touchy!!!!!!!!!!!!
+// Fetch and display products when the page loads
 fetchProducts();
