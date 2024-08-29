@@ -1,7 +1,7 @@
 {
   "name": "Grocies Supermarket",
   "short_name": "Grocies",
-  "start_url": "/?utm_source=pwa",
+  "start_url": "PuffyX3/Wdos-assignment-2/index.html",
   "display": "standalone",
   "background_color": "#fff",
   "description": "shop at your convience.",
